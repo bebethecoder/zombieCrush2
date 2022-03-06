@@ -40,7 +40,7 @@ function setup() {
   leftWall = new Base(100, height - 300, 200, height / 2 + 100);
   rightWall = new Base(width - 100, height - 300, 200, height / 2 + 100);
 
-  bridge = new Bridge(30, { x: 50, y: height / 2 - 140 });
+  bridge = new Bridge(18, { x: 50, y: height / 2 - 140 });
   jointPoint = new Base(width - 250, height / 2 - 100, 40, 20);
 
   Matter.Composite.add(bridge.body, jointPoint);
